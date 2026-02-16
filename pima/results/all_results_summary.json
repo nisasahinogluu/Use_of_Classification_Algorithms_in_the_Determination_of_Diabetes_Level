@@ -1,0 +1,55 @@
+{
+    "ML": [
+        {
+            "Model": "Logistic Regression",
+            "Mean CV Accuracy": 0.9285546415981198,
+            "Mean CV ROC AUC": 0.977008275076581
+        },
+        {
+            "Model": "Random Forest",
+            "Mean CV Accuracy": 0.9913396004700352,
+            "Mean CV ROC AUC": 0.9998957361727158
+        },
+        {
+            "Model": "Support Vector Machine",
+            "Mean CV Accuracy": 0.9502173913043478,
+            "Mean CV ROC AUC": 0.9800800483812203
+        },
+        {
+            "Model": "K-Nearest Neighbors",
+            "Mean CV Accuracy": 0.8733842538190364,
+            "Mean CV ROC AUC": 0.9691047575918125
+        },
+        {
+            "Model": "Decision Tree",
+            "Mean CV Accuracy": 1.0,
+            "Mean CV ROC AUC": 1.0
+        }
+    ],
+    "DL": {
+        "ANN": {
+            "Mean CV Accuracy": 0.7488190364277321,
+            "Mean CV Precision": 0.7762278071131614,
+            "Mean CV Recall": 0.7488190364277321,
+            "Mean CV AUC ROC": 0.9122436087040307
+        },
+        "DNN": {
+            "Mean CV Accuracy": 0.7262044653349001,
+            "Mean CV Precision": 0.7488225517708063,
+            "Mean CV Recall": 0.7262044653349001,
+            "Mean CV AUC ROC": 0.9339102496537951
+        },
+        "CNN": {
+            "Mean CV Accuracy": 0.49780258519388954,
+            "Mean CV Precision": 0.4380311868568634,
+            "Mean CV Recall": 0.49780258519388954,
+            "Mean CV AUC ROC": 0.6811146820691379
+        },
+        "LSTM": {
+            "Mean CV Accuracy": 0.5129847238542891,
+            "Mean CV Precision": 0.45513152337132395,
+            "Mean CV Recall": 0.5129847238542891,
+            "Mean CV AUC ROC": 0.6977955763983618
+        }
+    }
+}
